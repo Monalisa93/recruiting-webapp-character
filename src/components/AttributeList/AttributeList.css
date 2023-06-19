@@ -1,0 +1,69 @@
+.main-container {
+  display: flex;
+}
+
+.attribute-list {
+    flex: 1;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .attribute-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .attribute-list h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .attribute-listt .attribute-section {
+    margin-bottom: 20px;
+  }
+  
+  .attribute-list .attribute-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .attribute-list .attribute-item button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .character-sheet .attribute-item button:hover {
+    background-color: #ccc;
+  }
+  
+  .attribute-list .skill-section {
+    margin-bottom: 20px;
+  }
+  
+  .attribute-list .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .attribute-list .skill-item button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .attribute-list .skill-item button:hover {
+    background-color: #ccc;
+  }
+  

@@ -1,0 +1,8 @@
+.skill-list {
+    flex: 1;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

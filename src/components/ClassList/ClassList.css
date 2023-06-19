@@ -1,0 +1,33 @@
+.class-list {
+    flex: 1;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.class-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .class-item.met {
+    background-color: #aaffaa;
+  }
+  
+  .class-item.not-met {
+    background-color: #ffaaaa;
+  }
+  
+  .class-item p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .class-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
